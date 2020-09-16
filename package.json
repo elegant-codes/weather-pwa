@@ -1,0 +1,11 @@
+{
+  "name": "weather-pwa",
+  "version": "1.0.0",
+  "description": "A PWA weather app built with HTML/CSS and Vanilla Javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajakaye Ayobami",
+  "license": "ISC"
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+:root {
+  --bg-color: #f3f1f1;
+  --primary-color: #2c2c2c;
+  --secondary-color: #5e5e5e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input{
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 15px;
+  outline: none;
+  border: 2px solid #2c2c2c;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(224, 222, 222, 0.8);
+}
+
+main {
+  display: flex;
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.location .city {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.location .date {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+.location .weather-icon {
+  margin: 20px 0;
+}
+
+.weather-icon img{
+  width: 120px;
+}
+
+.current .temp {
+  font-size: 70px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.current .weather {
+  font-size: 18px;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.metric p {
+  font-size: 21px;
+  margin: 10px;
+  font-weight: 500;
+}
+
+.metric .metric-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
